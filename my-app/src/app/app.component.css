@@ -1,0 +1,26 @@
+.main {
+    width: 1024px;
+    -webkit-box-shadow: 0px 0px 8px 0px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 0px 0px 8px 0px rgba(34, 60, 80, 0.2);
+    box-shadow: 0px 0px 8px 0px rgba(34, 60, 80, 0.2);
+    margin-left: 50px;
+}
+h1 {
+    margin-left: 300px;
+    padding-top: 50px;
+}
+.row {
+    display: flex;
+}
+.top-row {
+    margin-bottom: 50px;
+}
+.main-section {
+    padding: 50px;
+}
+.about-me {
+    margin-right: 70px;
+}
+.my-experience {
+    margin-right: 230px;
+}

@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterOutlet } from '@angular/router';
+import { AboutMeComponent } from './about-me/about-me.component';
 import { MyExperienceComponent } from './my-experience/my-experience.component';
 import { MySkillsComponent } from './my-skills/my-skills.component';
 import { MyPhotoComponent } from './my-photo/my-photo.component';
@@ -8,7 +9,7 @@ import { MyPhotoComponent } from './my-photo/my-photo.component';
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [CommonModule, RouterOutlet, MyExperienceComponent, MySkillsComponent, MyPhotoComponent],
+  imports: [CommonModule, RouterOutlet, MyExperienceComponent, MySkillsComponent, MyPhotoComponent, AboutMeComponent],
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
